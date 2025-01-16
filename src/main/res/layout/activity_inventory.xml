@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InventoryActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Search bar at the top -->
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search products"
+        android:padding="8dp"
+        android:inputType="text"
+        android:drawableStart="@android:drawable/ic_menu_search" />
+
+    <!-- RecyclerView below the search bar -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/inventory_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar"
+        android:padding="8dp" />
+
+    <!-- Floating action button aligned to bottom end -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_product_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Add Product"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp" />
+
+    <!-- Fetch stock button aligned to bottom center -->
+    <Button
+        android:id="@+id/fetch_stock_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/add_product_fab"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Fetch Stock" />
+
+</RelativeLayout>

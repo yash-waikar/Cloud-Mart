@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "600567908128",
+    "project_id": "inventorymart-fe468",
+    "storage_bucket": "inventorymart-fe468.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600567908128:android:da630839fb6ab6237af945",
+        "android_client_info": {
+          "package_name": "cs477.gmu.project2_ywaikar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600567908128-tcaojhijm3vc2ibme5418roqljcba9i4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cs477.gmu.project2_ywaikar",
+            "certificate_hash": "36d3cb332dddfab1717b19fa9818eb38df7df2c8"
+          }
+        },
+        {
+          "client_id": "600567908128-b02omlc51bd3lnthjk046fcesdt44r99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3BupgGMFqQHZMiM7a0JNivqrmWO62HiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600567908128-b02omlc51bd3lnthjk046fcesdt44r99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

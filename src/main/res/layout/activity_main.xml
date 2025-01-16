@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="386dp"
+        android:layout_height="310dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Cloud Mart"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/manage_inventory_button"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="onManageInventoryClick"
+        android:text="Manage Inventory" />
+
+    <Button
+        android:id="@+id/handle_order_button"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="onHandleOrderClick"
+        android:text="Your Cart" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Logout"
+        android:textColor="@android:color/white" />
+</LinearLayout>
